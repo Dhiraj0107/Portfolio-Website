@@ -25,7 +25,7 @@ export default function Portfolio() {
     {
       title: "Flight Cancellation Status End-to-end Deep Learning Project",
       details:
-        "This project aims to predict whether a flight will be canceled or not using deep learning techniques. It utilizes an imbalanced dataset, which has been addressed through the Synthetic Minority Over-sampling Technique (SMOTE) for oversampling. The model is deployed as a Docker container and can be deployed to AWS ECR and EC2 for scalable deployment (I have established a CI/CD pipeline using GitHub Actions for this).",
+        "This project aims to predict whether a flight will be canceled or not using deep learning techniques. It utilizes an imbalanced dataset, which has been addressed through the Synthetic Minority Over-sampling Technique (SMOTE) for oversampling. The model is deployed as a Docker container using CI/CD pipeline in GitHub Actions and can be deployed to AWS ECR and EC2 for scalable deployment.",
       link: "https://github.com/Dhiraj0107/MLProject",
       tech: ["Deep Learning", "SMOTE", "Docker", "AWS ECR", "AWS EC2", "GitHub Actions", "CI/CD"]
     },
@@ -60,7 +60,7 @@ export default function Portfolio() {
           Dhiraj's Portfolio
         </motion.h1>
         <p className="text-lg max-w-3xl mx-auto">
-          Showcasing projects in Data Engineering, Machine Learning, NLP, and Business Intelligence.
+          Showcasing projects in Data Engineering, Generative AI, Machine Learning, NLP, and Business Intelligence.
         </p>
       </section>
 
